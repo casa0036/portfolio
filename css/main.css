@@ -1,0 +1,63 @@
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+/* 
+.source-code pro-<uniquifier> {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}  */
+
+:root {
+  --bs-primary: #9A9CCC;
+  --bs-primary-rgb: 154, 156,204;
+  --bs-secondary: #C14462;
+  --bs-secondary-rgb: 193, 68,98;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.navbar {
+  --bs-navbar-color: var(--bs-primary);
+  --bs-navbar-hover-color: var(--bs-secondary);
+  --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+  --bs-navbar-active-color: rgb(255,255,255);
+  --bs-navbar-brand-color: var(--bs-primary);
+  --bs-navbar-brand-hover-color: var(--bs-secondary);
+}
+
+h1 {
+  color: var(--bs-primary);
+  font-family: "Source Code Pro", monospace;
+}
+
+.h4 {
+  color: var(--bs-secondary);
+  font-family: "Source Code Pro", monospace;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--bs-secondary);
+  --bs-btn-border-color: var(--bs-secondary);
+  --bs-btn-hover-color: var(--bs-secondary);
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: var(--bs-secondary);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color:var(--bs-primary);
+}
+
+
+

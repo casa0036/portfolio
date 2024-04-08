@@ -10,18 +10,22 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- bootstrap icon libary -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <!-- custom css stylesheet link -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header class="bg-dark">
+  <header class="bg-dark pt-4">
     <a class="visually-hidden-focusable" href="#nav">Skip to navigation</a>
     <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
     <!-- Nav -->
-    <nav class="navbar navbar-expand-md navbar-dark custom-navbar" data-bs-theme="dark">
+    <nav id="nav" class="navbar navbar-expand-md text-primary">
       <div class="container-xl pb-4">
-        <a class="navbar-brand display-6" href="#nav">&lt;Nikolett Casar&#92;&gt;</a>
+        <a class="navbar-brand fs-2" href="/portfolio/index.html">&lt;Nikolett Casar&#92;&gt;</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,16 +52,18 @@
 
   <main id="content">
     <!-- hero banner -->
-    <section class="container-fluid pt-5 pb-5">
-        <div class="row g-4">
+    <section class="container-lg pt-5 pb-5">
+        <div class="row g-6">
           <div class="col">
-            <h1 class="display-4 pt-3">&lt;Hello, I am Nikolett.&#92;&gt;</h1>
-            <h2 class="h4 pt-2">&lt;Web Developer/Motions graphics&#92;&gt;</h2>
+            <h1 class="display-4 pb-2">&lt;Hello, I am Nikolett.&#92;&gt;</h1>
+            <h2 class="h4 pt-2 pb-4">&lt;Web Developer/Motions graphics&#92;&gt;</h2>
             <p class="pb-3">Welcome to the digital realm of creativity and innovation, where pixels dance to the rhythm of
               imagination! I'm a versatile web developer and motion graphics artist, weaving together the fabric of the
               virtual universe one line of code and frame at a time.</p>
-            <a href="#" class="btn btn-secondary btn-lg">My Work</a>
-            <a href="#" class="btn-outline-secondary btn-lg">Contact</a>
+            <!-- <a href="#" class="btn btn-secondary btn-lg">My Work</a> -->
+            <div class="d-grid gap-2 col-6 pt-3">
+            <a href="/portfolio/contact.html" class="btn btn-primary">Contact</a>
+            </div>
           </div>
           <div class="col">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/oy1rmkhEM64?si=10RspyCYZmgKa2sq"
@@ -68,12 +74,34 @@
         </div>
     </section>
 
-    </div>
   </main>
-    <footer class="bg-dark text-primary">
-      <div class="container-fluid">
-          <p>&copy; Nikolett Casar</p>
-      </div>
+    <!-- Footer -->
+  <footer class="bg-dark text-primary d-flex justify-content-between p-4 mt-4">
+
+    <div class="me-5 fw-1">
+      <span>&copy;Nikolett Casar</span>
+    </div>
+
+    <div class="fs-5">
+      <a href="" class="me-4">
+        <i class="bi bi-behance"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

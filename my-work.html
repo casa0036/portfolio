@@ -10,18 +10,22 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- bootstrap icon libary -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <!-- custom css stylesheet link -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header class="bg-dark">
+  <header class="bg-dark pt-4">
     <a class="visually-hidden-focusable" href="#nav">Skip to navigation</a>
     <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
     <!-- Nav -->
-    <nav class="navbar navbar-expand-md navbar-dark custom-navbar" data-bs-theme="dark">
+    <nav id="nav" class="navbar navbar-expand-md text-primary">
       <div class="container-xl pb-4">
-        <a class="navbar-brand display-6" href="#nav">&lt;Nikolett Casar&#92;&gt;</a>
+        <a class="navbar-brand fs-2" href="/portfolio/index.htmld">&lt;Nikolett Casar&#92;&gt;</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -47,15 +51,62 @@
   </header>
 
   <main id="content">
-    <section>
+    <!-- intro section -->
+    <section class="container-lg mt-5">
       <h1>&lt;My Work&#92;&gt;</h1>
+      <p>Explore my portfolio to see examples of my work and get a glimpse of what I can bring to your next project. Let's collaborate and turn your ideas into digital masterpieces!</p>
     </section>
-   
-  </main>
-    <footer class="bg-dark text-primary">
-      <div class="container-fluid">
-          <p>&copy; Nikolett Casar</p>
+    <!-- portfoilo pages -->
+    <section class="container-lg">
+      <div class="row row-cols-1 row-cols-sm-2 g-4">
+        <div class="col">
+            <iframe src="https://www.behance.net/embed/project/148517551?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="col">
+            <iframe src="https://www.behance.net/embed/project/150043057?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="col">
+            <iframe src="https://www.behance.net/embed/project/153360289?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="col">
+            <iframe src="https://www.behance.net/embed/project/161474485?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="col">
+            <iframe src="https://www.behance.net/embed/project/149376097?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="col">
+            <iframe src="https://www.behance.net/embed/project/148521345?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
       </div>
+    </section>
+  </main>
+    <!-- Footer -->
+  <footer class="bg-dark text-primary d-flex justify-content-between p-4 mt-4">
+
+    <div class="me-5 fw-1">
+      <span>&copy;Nikolett Casar</span>
+    </div>
+
+    <div class="fs-5">
+      <a href="" class="me-4">
+        <i class="bi bi-behance"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-offset-2 link-underline link-underline-opacity-0">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
