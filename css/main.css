@@ -12,9 +12,10 @@
   font-style: normal;
 }  */
 
+/* Adds root styling for main colours of the webpage */
 :root {
-  --bs-primary: #9A9CCC;
-  --bs-primary-rgb: 154, 156,204;
+  --bs-primary: #604aa1;
+  --bs-primary-rgb: 96, 74, 161; 
   --bs-secondary: #C14462;
   --bs-secondary-rgb: 193, 68,98;
 }
@@ -28,11 +29,11 @@ a {
 }
 
 .navbar {
-  --bs-navbar-color: var(--bs-primary);
+  --bs-navbar-color: #9A9CCC;
   --bs-navbar-hover-color: var(--bs-secondary);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgb(255,255,255);
-  --bs-navbar-brand-color: var(--bs-primary);
+  --bs-navbar-brand-color: #9A9CCC;
   --bs-navbar-brand-hover-color: var(--bs-secondary);
 }
 
@@ -99,13 +100,20 @@ h5 {
 
 .form-label {
   font-family: "Source Code Pro", monospace;
-  color: var(--bs-secondary);;
+  color: var(--bs-secondary);
 } 
 
 .form-control {
   color: var(--bs-primary) ;
   border: var(--bs-border-width) solid var(--bs-primary) ;
 }
+
+.color-fill {
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+border-radius: 360px;
+}
+/* Adds the animate.style  */
 
 .my-element:hover {
   display: inline-block;
