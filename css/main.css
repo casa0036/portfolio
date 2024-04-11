@@ -36,6 +36,21 @@ a {
   --bs-navbar-brand-hover-color: var(--bs-secondary);
 }
 
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: rgb(255,255,255);
+  background-color: var(--bs-secondary);
+  border: var(--bs-border-width) solid rgb(255,255,255);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-brand {
+  font-family: "Source Code Pro", monospace;
+}
+
 h1 {
   color: var(--bs-primary);
   font-family: "Source Code Pro", monospace;
@@ -45,6 +60,21 @@ h1 {
   color: var(--bs-secondary);
   font-family: "Source Code Pro", monospace;
 }
+
+h2 {
+  color: var(--bs-secondary);
+  font-family: "Source Code Pro", monospace;
+}
+
+h3 {
+  color: var(--bs-primary);
+  font-family: "Source Code Pro", monospace;
+}
+
+h5 {
+  font-family: "Source Code Pro", monospace;
+}
+
 
 .btn-primary {
   --bs-btn-color: #fff;
@@ -58,6 +88,34 @@ h1 {
   --bs-btn-active-bg: var(--bs-primary);
   --bs-btn-active-border-color:var(--bs-primary);
 }
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-title-color: var(--bs-primary) ;
+  --bs-card-border-color:var(--bs-primary) ;
+}
+
+.form-label {
+  font-family: "Source Code Pro", monospace;
+  color: var(--bs-secondary);;
+} 
+
+.form-control {
+  color: var(--bs-primary) ;
+  border: var(--bs-border-width) solid var(--bs-primary) ;
+}
+
+.my-element:hover {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: infinite; /* don't forget to set a duration! */
+}
+
+
 
 
 
